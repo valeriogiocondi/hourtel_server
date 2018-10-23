@@ -28,7 +28,7 @@ module.exports = {
 
 		sendEmail: (to, subject, text) => {
 
-			let adminEmailAddr = 'hourtel.italia@gmail.com';
+			let adminEmailAddr = '****';
 			let adminEmailpass = '****';
 
 			let transporter = nodemailer.createTransport(smtpTransport({
